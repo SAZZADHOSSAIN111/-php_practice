@@ -7,6 +7,8 @@ $y ="I love to code";
 $a = "$x $y";
 // echo $a;
 
+var_dump(is_string($x));
+echo "<br>";
 echo substr ($x ,4);
 
 // echo  trim("   code is ok   ")

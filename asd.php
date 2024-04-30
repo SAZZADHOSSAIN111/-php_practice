@@ -16,4 +16,7 @@ echo substr ($x ,4);
 
 // $z =explode (" " , $y);
 // print_r ($z)
+
+$math = 6.50;
+echo(round($math));
 ?>

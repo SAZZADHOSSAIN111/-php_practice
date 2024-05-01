@@ -17,6 +17,12 @@ echo substr ($x ,4);
 // $z =explode (" " , $y);
 // print_r ($z)
 
-$math = 6.50;
-echo(round($math));
+$math = -6.50;
+
+echo $math = (string) $math; //php casting
+
+var_dump($math);
+// echo(round($math));
+echo "<br>";
+echo(abs($math))
 ?>

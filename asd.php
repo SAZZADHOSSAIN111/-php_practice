@@ -48,8 +48,66 @@ echo "<br>";
 
 function robinhood(){
     echo "this function name is:" . __FUNCTION__;
-
 }
-
 robinhood();
+
+echo "<br>";
+//php oparators
+
+$number = 10;
+$number2 = 35;
+
+echo $number + $number2;
+echo "<br>";
+echo $number - $number2;
+echo "<br>";
+echo $number * $number2;
+echo "<br>";
+echo $number2 / $number;
+echo "<br>";
+echo $number2 % $number;
+echo "<br>";
+echo $number2 ** $number;
+echo "<br>";
+echo $number2 += $number2;
+echo "<br>";
+echo $number2 /= $number2;
+echo "<br>";
+echo $number2 -= $number2;
+echo "<br>";
+echo $number2 %= $number;
+echo "<br>";
+$comp1 = 100;
+$comp2 = "100";
+$comp3 = "90";
+var_dump ($comp1 == $comp2);
+echo "<br>";
+var_dump ($comp1 === $comp2);
+echo "<br>";
+var_dump ($comp1 != $comp2);
+echo "<br>";
+var_dump ($comp1 !== $comp2);
+echo "<br>";
+var_dump ($comp1 > $comp3);
+echo "<br>";
+var_dump ($comp1 < $comp3);
+echo "<br>";
+var_dump ($comp1 >= $comp3);
+echo "<br>";
+var_dump ($comp1 <= $comp2);
+echo "<br>";
+var_dump ($comp1 <=> $comp3);
+echo "<br>";
+var_dump ($comp3 <=> $comp2);
+echo "<br>";
+echo ++$comp1;
+echo "<br>";
+$comp1 = 100;
+echo $comp1++;
+echo "<br>";
+$comp1 = 100;
+echo --$comp1;
+echo "<br>";
+$comp1 = 100;
+echo $comp1--;
 ?>

@@ -112,4 +112,52 @@ echo --$comp1;
 echo "<br>";
 $comp1 = 100;
 echo $comp1--;
+echo "<br>";
+$comp1 = 100;
+$comp2 = "100";
+if  ($comp1==100 and $comp2=="100"){
+    echo "and";
+}
+echo "<br>";
+if  ($comp1==100 or $comp2=="100"){
+    echo "or";
+}
+echo "<br>";
+$logic1 = 100;
+$logic2 = "100";
+if  ($logic1==100 xor $logic2==800){
+    echo "xor";
+}
+echo "<br>";
+if  ($logic1==100 && $logic2==100){
+    echo "&&";
+}
+echo "<br>";
+if  ($logic1==100 || $logic2==100){
+    echo "||";
+}
+echo "<br>";
+$yes = 100;
+if (!($yes==90)) {
+    echo "okey";
+}
+echo "<br>";
+echo $logic1 . $logic2;
+echo "<br>";
+echo $logic1 .=$comp3;
+echo "<br>";
+$array = array( "a" => "green" , " b" => "orange" );
+$array2 = array( "c" => "black" , " d" => "yellow" );
+print_r($array + $array2);
+echo "<br>";
+var_dump($array == $array2);
+echo "<br>";
+var_dump($array === $array2);
+echo "<br>";
+var_dump($array != $array2);
+echo "<br>";
+var_dump($array <> $array2);
+echo "<br>";
+var_dump($array !== $array2);
+
 ?>

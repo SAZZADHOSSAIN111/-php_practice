@@ -159,5 +159,4 @@ echo "<br>";
 var_dump($array <> $array2);
 echo "<br>";
 var_dump($array !== $array2);
-
 ?>

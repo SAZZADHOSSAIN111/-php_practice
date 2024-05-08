@@ -48,4 +48,10 @@ function reffe(&$replace) {
 $target = 5;
 reffe($target);
 echo $target;
+
+function demo(...$demon){
+
+}
+
+
 ?>

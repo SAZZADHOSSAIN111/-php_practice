@@ -8,7 +8,7 @@
 </form>
 
 <?php
-$_SERVER["REQUEST_METHOD"] == "POST";
+$_SERVER["REQUEST_METHOD"] == "POST"; 
 // collect value of input field
 echo $name = $_POST['fname'];
 echo "<br>";

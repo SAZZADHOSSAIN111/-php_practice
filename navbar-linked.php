@@ -7,8 +7,11 @@
 </head>
 <body>
     <div>
-        <?php require 'navbar.php'; echo "<br>";
-        readfile("navbar.php"); //php file handling
+        <?php
+         require 'navbar.php'; echo "<br>";
+        // readfile("navbar.php"); //php file handling
+        $myfile = fopen("navbar.php", "a") or die("Unable to open file!");
+
         ?>
     </div>
 <!-- 

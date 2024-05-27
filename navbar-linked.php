@@ -8,9 +8,15 @@
 <body>
     <div>
         <?php
-         require 'navbar.php'; echo "<br>";
+        require 'navbar.php'; echo "<br>";
         // readfile("navbar.php"); //php file handling
-        $myfile = fopen("navbar.php", "a") or die("Unable to open file!");
+        $myfile = fopen("navbar.php", "r") or die("Unable to open file!");
+        while(!feof($myfile)){
+            echo fgetc($myfile);
+        }
+        // echo fread($myfile,filesize("navbar.php"));
+        // echo fgetc($myfile);
+        // fclose($myfile);
 
         ?>
     </div>
